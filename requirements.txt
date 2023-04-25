@@ -1,0 +1,5 @@
+scikit-learn
+mediapipe
+pandas
+opencv-python
+jupyter
