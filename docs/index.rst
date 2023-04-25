@@ -20,3 +20,4 @@ Contents
    usage
    requirements
    troubleshooting
+   changelog
