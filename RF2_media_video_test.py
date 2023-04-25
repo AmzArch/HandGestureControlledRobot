@@ -1,9 +1,6 @@
-import keras
 import numpy as np
 import cv2
-import tensorflow as tf
 import mediapipe as mp
-import copy
 import pickle
 
 # Define the list of landmark names to be used
@@ -33,19 +30,9 @@ while True:
     if not ret:
             break
     H, W, _ = image.shape
-    # image = cv2.flip(image, 1)  # Mirror display
-    # debug_image = copy.deepcopy(image)
+    
     # Detection implementation #############################################################
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-
-    # image.flags.writeable = False
-    # # results = hands.process(image)
-    # image.flags.writeable = True
-
-
-    # # Initialize the Mediapipe Hands model
-    # mp_hands = mp.solutions.hands
-    # hands = mp_hands.Hands(static_image_mode=False, max_num_hands=2, min_detection_confidence=0.85)
 
     # # Process the current frame with Mediapipe Hands model
     results = hands.process(image)
@@ -85,10 +72,8 @@ while True:
         predicted_character = key[int(prediction[0])]
 
         cv2.rectangle(image, (x1, y1), (x2, y2), (0, 0, 0), 4)
-        # cv2.putText(image, predicted_character, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 0, 0), 3,
-        #             cv2.LINE_AA)
-
-        print(predicted_character)
+        cv2.putText(image, str(predicted_character), (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 0, 0), 3,
+                     cv2.LINE_AA)
 
     cv2.imshow('frame', image)
     cv2.waitKey(1)
