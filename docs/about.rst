@@ -10,4 +10,4 @@ With major market potential in a number of industries inside and outside of the 
 
 With the above points in mind we set out to make a unique project that combines machine learning and AI with a moveable robotic platform such as a Turtlebot 4 built on the ROS2 platform to get it follow commands given by the user remotely using a webcam atached to a laptop and publish the commands over the ros network and subscribe to them in the Turtlebot 4.
 
-To learn more or try our project out yourself please visit: https://github.com/AmzArch/HandGestureControlledRobot
+To learn more or try our project out yourself please visit: https://github.com/VishalNadig/hand-gesture-controlled-turtlebot4
