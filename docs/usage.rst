@@ -11,7 +11,7 @@ Clone the repository into your robot platform running ROS2.
 
 .. code-block:: console
 
-   $ git clone https://github.com/VishalNadig/hand-gesture-controlled-turtlebot4.git
+   $ git clone https://github.com/AmzArch/HandGestureControlledRobot.git
 
 **Step 2**
 
@@ -19,7 +19,7 @@ Copy the cobot3_ws folder found in hand-gesture-controlled-turtlebot4 into your 
 
 .. code-block:: console
 
-   $ cp -r hand-gesture-controlled-turtlebot4/cobot3_ws ~/
+   $ cp -r /HandGestureControlledRobot/cobot3_ws ~/
    $ cd ~/cobot3_ws/
    
  
