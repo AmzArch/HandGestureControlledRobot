@@ -19,7 +19,7 @@ Copy the cobot3_ws folder found in hand-gesture-controlled-turtlebot4 into your 
 
 .. code-block:: console
 
-   $ cp -r hand-gesture-controlled-turtlebot4/cobot3_ws ~/
+   $ cp -r /HandGestureControlledRobot/cobot3_ws ~/
    $ cd ~/cobot3_ws/
    
  
