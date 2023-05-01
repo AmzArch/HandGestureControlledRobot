@@ -11,7 +11,7 @@ Clone the repository into your robot platform running ROS2.
 
 .. code-block:: console
 
-   $ git clone https://github.com/VishalNadig/hand-gesture-controlled-turtlebot4.git
+   $ git clone https://github.com/AmzArch/HandGestureControlledRobot.git
 
 **Step 2**
 
