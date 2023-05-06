@@ -25,6 +25,11 @@ Our primary goal for the project was to develop an accurate, efficient machine l
 
 Due to the inefficiency of the CNN model, we switched to a Random Forest Classifier model from scikit-learn. We also changed the dataset we used for training and testing, as the previous dataset was too large and complicated. We found a smaller dataset on kaggle that contained images of just the numbers used in ASL, which performed better and yielded over 95% accuracy on the model we trained. The Random Forest Classifier model was also much more efficient on the ROS network and used less computational power to predict the hand gestures. 
 
+.. image:: WorkflowDevelopment.png
+   :width: 600
+
+
+
 ROS Architecture
 ----
 
