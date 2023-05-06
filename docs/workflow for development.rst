@@ -1,6 +1,10 @@
 Workflow for Development
 ===========
 
+.. image:: WorkflowDevelopment.png
+   :width: 600
+
+
 Week 1
 ------
 
